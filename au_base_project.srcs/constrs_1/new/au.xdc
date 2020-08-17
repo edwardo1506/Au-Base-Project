@@ -43,3 +43,30 @@ set_property IOSTANDARD LVCMOS33 [get_ports {usb_tx}]
 
 set_property PACKAGE_PIN P15 [get_ports {usb_rx}]
 set_property IOSTANDARD LVCMOS33 [get_ports {usb_rx}]
+
+
+# I2C CLOCKS ####################################
+
+set_property PACKAGE_PIN x [get_ports {advk_scl}]
+set_property IOSTANDARD LVCMOS33 [get_ports {advk_scl}]
+
+set_property PACKAGE_PIN x [get_ports {temp_scl}]
+set_property IOSTANDARD LVCMOS33 [get_ports {temp_scl}]
+
+# I2C DATA LINES ################################
+
+set_property PACKAGE_PIN x [get_ports {advk_sda_in}]
+set_property IOSTANDARD LVCMOS33 [get_ports {advk_sda_in}]
+
+set_property PACKAGE_PIN x [get_ports {advk_sda_out}]
+set_property IOSTANDARD LVCMOS33 [get_ports {temp_sda_out}]
+
+set_property PACKAGE_PIN x [get_ports {temp_sda_in}]
+set_property IOSTANDARD LVCMOS33 [get_ports {temp_sda_in}]
+
+set_property PACKAGE_PIN x [get_ports {temp_sda_out}]
+set_property IOSTANDARD LVCMOS33 [get_ports {temp_sda_out}]
+
+ #################################################
+
+
