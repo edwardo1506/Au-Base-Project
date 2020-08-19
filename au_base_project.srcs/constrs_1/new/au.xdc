@@ -45,7 +45,7 @@ set_property PACKAGE_PIN P15 [get_ports {usb_rx}]
 set_property IOSTANDARD LVCMOS33 [get_ports {usb_rx}]
 
 
-# I2C CLOCKS ####################################
+# I2C SIGNALS ####################################
 
 set_property PACKAGE_PIN R13 [get_ports {advk_scl}]
 set_property IOSTANDARD LVCMOS33 [get_ports {advk_scl}]
@@ -53,7 +53,6 @@ set_property IOSTANDARD LVCMOS33 [get_ports {advk_scl}]
 set_property PACKAGE_PIN P11 [get_ports {temp_scl}]
 set_property IOSTANDARD LVCMOS33 [get_ports {temp_scl}]
 
-# I2C DATA LINES ################################
 
 set_property PACKAGE_PIN P10 [get_ports {advk_sda_in}]
 set_property IOSTANDARD LVCMOS33 [get_ports {advk_sda_in}]
@@ -67,6 +66,24 @@ set_property IOSTANDARD LVCMOS33 [get_ports {temp_sda_in}]
 set_property PACKAGE_PIN R12 [get_ports {temp_sda_out}]
 set_property IOSTANDARD LVCMOS33 [get_ports {temp_sda_out}]
 
- #################################################
+
+
+# bit_counter LINES ################################
+# brown
+set_property PACKAGE_PIN N12 [get_ports {bit_counter[0]}]       
+set_property IOSTANDARD LVCMOS33 [get_ports {bit_counter[0]}]   
+# green
+set_property PACKAGE_PIN N13 [get_ports {bit_counter[1]}]       
+set_property IOSTANDARD LVCMOS33 [get_ports {bit_counter[1]}]
+
+# yellow
+set_property PACKAGE_PIN R10 [get_ports {bit_counter[2]}]       
+set_property IOSTANDARD LVCMOS33 [get_ports {bit_counter[2]}]
+# white
+set_property PACKAGE_PIN R11 [get_ports {bit_counter[3]}]       
+set_property IOSTANDARD LVCMOS33 [get_ports {bit_counter[3]}]
+
+####################################################
+
 
 
